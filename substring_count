@@ -1,0 +1,6 @@
+your_str1 = input('Enter a string >')
+your_str2 = input('Enter a substring >')
+
+res = your_str1.count(your_str2)
+
+print('the substring ' + '"' + str(your_str2) + '"' + ' appears ' + str(res) + ' times in ' + '"' + str(your_str1) + '"')
